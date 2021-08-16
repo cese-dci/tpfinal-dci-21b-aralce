@@ -1,8 +1,12 @@
 ## Propuesta ##
-En este directorio debe ir OBLIGATORIAMENTE la información que se presentó al momento de acordar la propuesta de TP con el docente. Es decir:
-* Fotos e imágenes de las placas de ambos lados si es una réplica. 
-* Fotos e imágenes de los prototipos cableados o pruebas si es un trabajo de tesis.
-* Urls o info de origen. 
-* Circuito esquemático de referencia (si es una réplica) o borrador si es un trabajo de tesis.
-* Resumen de la función u objetivo del circuito si es un trabajo de tesis.
-* Cualquier otra nota que se haya usado para definir el TP en el formulario de propuesta.
+
+### Info de referencia
+[Fuente Protoboard](https://github.com/cese-dci/tpfinal-dci-21b-aralce/files/6993627/FuenteProtoboard.pdf)
+
+### Fotos de la réplica 
+
+#### Vista superior 
+![TOP](https://user-images.githubusercontent.com/72839552/129589938-2c95c905-977b-4ff5-ac44-3ef74582dfce.PNG)
+
+#### Vista desde abajo!
+![Bottom](https://user-images.githubusercontent.com/72839552/129590266-1c71a254-6e9d-4495-b167-940bbf0423e5.jpg)
