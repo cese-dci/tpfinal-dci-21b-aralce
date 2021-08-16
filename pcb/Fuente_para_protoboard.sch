@@ -31,7 +31,8 @@ P 3650 2900
 F 0 "J5" H 3300 2850 50  0000 C CNN
 F 1 "USB_A" H 3300 2750 50  0000 C CNN
 F 2 "Connector_USB:USB_A_Molex_67643_Horizontal" H 3800 2850 50  0001 C CNN
-F 3 " ~" H 3800 2850 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/GCT%20PDFs/USB1130-USB1135.pdf" H 3800 2850 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/gct/USB1135-15-9-L-B/13545895" H 3650 2900 50  0001 C CNN "Catalog"
 	1    3650 2900
 	1    0    0    -1  
 $EndComp
@@ -53,7 +54,8 @@ P 5500 1800
 F 0 "D1" H 5500 2000 50  0000 C CNN
 F 1 "M7" H 5500 1900 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA" H 5500 1800 50  0001 C CNN
-F 3 "~" H 5500 1800 50  0001 C CNN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/m1.pdf" H 5500 1800 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/diotec-semiconductor/M7/13155808" H 5500 1800 50  0001 C CNN "Catalog"
 	1    5500 1800
 	-1   0    0    1   
 $EndComp
@@ -76,6 +78,7 @@ F 0 "U1" H 6400 2042 50  0000 C CNN
 F 1 "AMS1117-5.0" H 6400 1951 50  0000 C CNN
 F 2 "digikey-footprints:SOT-223" H 6400 2000 50  0001 C CNN
 F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 6500 1550 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/LM1117MPX-5-0-NOPB/366734" H 6400 1800 50  0001 C CNN "Catalog"
 	1    6400 1800
 	1    0    0    -1  
 $EndComp
@@ -97,7 +100,7 @@ P 7650 1800
 F 0 "U2" H 7650 2042 50  0000 C CNN
 F 1 "AMS1117-3.3" H 7650 1951 50  0000 C CNN
 F 2 "digikey-footprints:SOT-223" H 7650 2000 50  0001 C CNN
-F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 7750 1550 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/texas-instruments/LM1117MPX-3-3-NOPB/366733" H 7750 1550 50  0001 C CNN
 	1    7650 1800
 	1    0    0    -1  
 $EndComp
@@ -779,7 +782,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 2100 7650 2450
 Wire Wire Line
-	5350 3400 5350 3600
+	5350 3400 5350 3550
 Wire Wire Line
 	6100 3550 6100 3600
 $Comp
@@ -833,4 +836,20 @@ F 3 "" H 9200 5200 50  0001 C CNN
 	1    9200 5200
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 611AA4B9
+P 5400 3550
+F 0 "#FLG0104" H 5400 3625 50  0001 C CNN
+F 1 "PWR_FLAG" V 5400 3678 50  0000 L CNN
+F 2 "" H 5400 3550 50  0001 C CNN
+F 3 "~" H 5400 3550 50  0001 C CNN
+	1    5400 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 3550 5350 3550
+Connection ~ 5350 3550
+Wire Wire Line
+	5350 3550 5350 3600
 $EndSCHEMATC
